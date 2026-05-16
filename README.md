@@ -5,6 +5,21 @@ A dark, vibrant theme for [Omarchy](https://omarchy.org/) inspired by the Arc Bl
 ![Preview](theme.png)
 *Hyprland with gradient borders, Waybar, Ghostty terminal, and Neovim.*
 
+## Color Palette
+
+| Role | Hex | Preview |
+|------|-----|---------|
+| Background | `#111422` | <img valign='middle' alt='#111422' src='https://readme-swatches.vercel.app/111422'/> |
+| Foreground | `#bcc1dc` | <img valign='middle' alt='#bcc1dc' src='https://readme-swatches.vercel.app/bcc1dc'/> |
+| Blue (accent) | `#8eb0e6` | <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
+| Blue (bright) | `#69C3FF` | <img valign='middle' alt='#69C3FF' src='https://readme-swatches.vercel.app/69C3FF'/> |
+| Magenta | `#F38CEC` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> |
+| Cyan | `#22ECDB` | <img valign='middle' alt='#22ECDB' src='https://readme-swatches.vercel.app/22ECDB'/> |
+| Green | `#3CEC85` | <img valign='middle' alt='#3CEC85' src='https://readme-swatches.vercel.app/3CEC85'/> |
+| Yellow | `#EACD61` | <img valign='middle' alt='#EACD61' src='https://readme-swatches.vercel.app/EACD61'/> |
+| Red | `#E35535` | <img valign='middle' alt='#E35535' src='https://readme-swatches.vercel.app/E35535'/> |
+| Border gradient | `#F38CEC` to `#8eb0e6` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
+
 ## What's Included
 
 This theme provides configs for every layer of the Omarchy stack:
@@ -25,21 +40,6 @@ This theme provides configs for every layer of the Omarchy stack:
 | VSCode | `vscode.json` | Auto-installs BeardedTheme extension and activates Arc Blueberry |
 | Icons | `icons.theme` | Sets Yaru-blue icon pack |
 | Backgrounds | `backgrounds/` | 4 wallpapers |
-
-## Color Palette
-
-| Role | Hex | Preview |
-|------|-----|---------|
-| Background | `#111422` | <img valign='middle' alt='#111422' src='https://readme-swatches.vercel.app/111422'/> |
-| Foreground | `#bcc1dc` | <img valign='middle' alt='#bcc1dc' src='https://readme-swatches.vercel.app/bcc1dc'/> |
-| Blue (accent) | `#8eb0e6` | <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
-| Blue (bright) | `#69C3FF` | <img valign='middle' alt='#69C3FF' src='https://readme-swatches.vercel.app/69C3FF'/> |
-| Magenta | `#F38CEC` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> |
-| Cyan | `#22ECDB` | <img valign='middle' alt='#22ECDB' src='https://readme-swatches.vercel.app/22ECDB'/> |
-| Green | `#3CEC85` | <img valign='middle' alt='#3CEC85' src='https://readme-swatches.vercel.app/3CEC85'/> |
-| Yellow | `#EACD61` | <img valign='middle' alt='#EACD61' src='https://readme-swatches.vercel.app/EACD61'/> |
-| Red | `#E35535` | <img valign='middle' alt='#E35535' src='https://readme-swatches.vercel.app/E35535'/> |
-| Border gradient | `#F38CEC` to `#8eb0e6` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
 
 ## Installation
 
