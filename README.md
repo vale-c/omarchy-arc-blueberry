@@ -1,77 +1,77 @@
-# Arc Blueberry Theme for Omarchy
+# Arc Blueberry for Omarchy
 
-A dark, vibrant theme for [Omarchy](https://omarchy.org/) inspired by the Arc Blueberry variant from the [BeardedTheme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) VSCode extension. Deep navy backgrounds, pink-to-blue gradient borders, and a full-spectrum neon palette make for a cohesive, cyberpunk-tinged desktop.
+Midnight navy, electric blueberry, and a magenta-to-blue window glow. Arc Blueberry gives Omarchy a vivid, coherent cyberpunk edge while keeping text crisp and the desktop comfortable for everyday work.
 
-![Preview](theme.png)
-*Hyprland with gradient borders, Waybar, Ghostty terminal, and Neovim.*
+![Arc Blueberry desktop preview](preview.png)
 
-## Color Palette
+## Why it stands out
 
-| Role | Hex | Preview |
-|------|-----|---------|
-| Background | `#111422` | <img valign='middle' alt='#111422' src='https://readme-swatches.vercel.app/111422'/> |
-| Foreground | `#bcc1dc` | <img valign='middle' alt='#bcc1dc' src='https://readme-swatches.vercel.app/bcc1dc'/> |
-| Blue (accent) | `#8eb0e6` | <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
-| Blue (bright) | `#69C3FF` | <img valign='middle' alt='#69C3FF' src='https://readme-swatches.vercel.app/69C3FF'/> |
-| Magenta | `#F38CEC` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> |
-| Cyan | `#22ECDB` | <img valign='middle' alt='#22ECDB' src='https://readme-swatches.vercel.app/22ECDB'/> |
-| Green | `#3CEC85` | <img valign='middle' alt='#3CEC85' src='https://readme-swatches.vercel.app/3CEC85'/> |
-| Yellow | `#EACD61` | <img valign='middle' alt='#EACD61' src='https://readme-swatches.vercel.app/EACD61'/> |
-| Red | `#E35535` | <img valign='middle' alt='#E35535' src='https://readme-swatches.vercel.app/E35535'/> |
-| Border gradient | `#F38CEC` to `#8eb0e6` | <img valign='middle' alt='#F38CEC' src='https://readme-swatches.vercel.app/F38CEC'/> <img valign='middle' alt='#8eb0e6' src='https://readme-swatches.vercel.app/8eb0e6'/> |
+- A luminous pink-to-blue active border with a soft blue window glow
+- One balanced palette across the Omarchy shell, terminals, editors, btop, browser chrome, lock screen, and more
+- Four matching wallpapers and Yaru Blue icons
+- Native support for the Omarchy 4 theme system
+- The original Bearded Theme Arc Blueberry experience in VS Code
 
-## What's Included
+## Install
 
-This theme provides configs for every layer of the Omarchy stack:
+Open the Omarchy Menu with `Super + Space`, then choose **Install > Style > Theme** and paste:
 
-| Component | File | What it does |
-|-----------|------|-------------|
-| Hyprland | `hyprland.conf` | Pink-to-blue gradient borders, blur, shadow, smooth window animations |
-| Ghostty | `ghostty.conf` | Full 16-color terminal palette |
-| Alacritty | `alacritty.toml` | Full 16-color terminal palette |
-| Neovim | `neovim.lua` | Minimal colorscheme via highlight groups (syntax, comments, visual) |
-| Btop | `btop.theme` | Themed gradients for CPU, memory, network, and temperature meters |
-| Waybar | `waybar.css` | Status bar color definitions |
-| Walker | `walker.css` | App launcher styling |
-| Mako | `mako.ini` | Notification colors, borders, and layout |
-| Hyprlock | `hyprlock.conf` | Lock screen color variables |
-| SwayOSD | `swayosd.css` | Volume/brightness overlay styling |
-| Chromium | `chromium.theme` | New Tab Page background color (dark navy) |
-| VSCode | `vscode.json` | Auto-installs BeardedTheme extension and activates Arc Blueberry |
-| Icons | `icons.theme` | Sets Yaru-blue icon pack |
-| Backgrounds | `backgrounds/` | 4 wallpapers |
-
-## Installation
-
-From the Omarchy Menu (`Super + Alt + Space`), go to **Install > Style > Theme** and paste the repo URL:
-
-```
+```text
 https://github.com/vale-c/omarchy-arc-blueberry
 ```
 
-Or install from the terminal:
+Or install it from a terminal:
 
+```bash
+omarchy theme install https://github.com/vale-c/omarchy-arc-blueberry
 ```
-omarchy-theme-install https://github.com/vale-c/omarchy-arc-blueberry
+
+The theme is applied immediately. To return to it later, use **Style > Theme** or press `Super + Ctrl + Shift + Space`.
+
+Already installed an older version? Update all third-party themes, then select Arc Blueberry again:
+
+```bash
+omarchy theme update
 ```
 
-Then select the theme via **Style > Theme** in the Omarchy Menu, or jump straight to the theme picker with `Super + Ctrl + Shift + Space`.
+## What gets themed
 
-## Customization
+Arc Blueberry uses Omarchy's semantic `colors.toml` palette, so current and future generated integrations inherit the same colors automatically.
 
-All config files can be edited directly. A few starting points:
+| Surface | Treatment |
+|---|---|
+| Omarchy shell | Top bar, menus, launcher, notifications, OSD, prompts, and lock screen |
+| Hyprland | Gradient borders, rounded corners, compact gaps, soft glow, blur, and fluid animations |
+| Terminals | Ghostty, Alacritty, Kitty, and Foot |
+| Editors | Generated Aether palette for Neovim, Bearded Theme Arc Blueberry for VS Code |
+| Utilities | btop, Chromium, Obsidian, Helix, and other Omarchy-generated integrations |
+| Desktop | Four wallpapers and Yaru Blue icons |
 
-- **Border colors/gradient**: edit `col.active_border` in `hyprland.conf`
-- **Window gaps and rounding**: adjust `gaps_in`, `gaps_out`, and `rounding` in `hyprland.conf`
-- **Notification layout**: tweak dimensions, timeout, or font in `mako.ini`
-- **Terminal palette**: modify colors in `ghostty.conf` or `alacritty.toml`
+## Palette
 
-After editing, reselect the theme from the Omarchy Menu to apply changes. VSCode theming is handled automatically by `vscode.json`.
+| Role | Color |
+|---|---|
+| Background | `#111422` |
+| Foreground | `#bcc1dc` |
+| Accent | `#8eb0e6` |
+| Electric blue | `#69c3ff` |
+| Magenta | `#f38cec` |
+| Cyan | `#22ecdb` |
+| Green | `#3cec85` |
+| Yellow | `#eacd61` |
+| Red | `#e35535` |
+
+## Customize
+
+Installed themes live in `~/.config/omarchy/themes/`. The two files that define Arc Blueberry are:
+
+- `colors.toml`, the shared palette used by Omarchy's generated integrations
+- `hyprland.lua`, the gradient border, glow, gaps, rounding, blur, and motion layer
+
+After making a change, select the theme again to regenerate and reload its integrations. Local edits can conflict with a later `omarchy theme update`, so keep a copy if you plan to maintain a personal variant.
 
 ## Credits
 
-Color palette derived from [BeardedTheme Arc Blueberry](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) by BeardedBear. All Omarchy integration, Hyprland customizations, and wallpapers are original.
+The palette and VS Code integration are based on [Bearded Theme Arc Blueberry](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) by BeardedBear. The Omarchy integration, Hyprland treatment, and wallpapers are original.
 
-## License
-
-[MIT](LICENSE)
+Released under the [MIT License](LICENSE).
