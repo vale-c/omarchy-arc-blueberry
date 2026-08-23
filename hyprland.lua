@@ -1,5 +1,7 @@
 local active_border_color = { colors = { "rgba(f38cecee)", "rgba(8eb0e6ee)" }, angle = 270 }
 local inactive_border_color = "rgba(3c4776cc)"
+local active_shadow_color = "rgba(69c3ff70)"
+local inactive_shadow_color = "rgba(3c477620)"
 
 hl.config({
   general = {
@@ -23,10 +25,10 @@ hl.config({
     rounding = 6,
     shadow = {
       enabled = true,
-      range = 18,
+      range = 20,
       render_power = 3,
-      color = "rgba(69c3ff66)",
-      color_inactive = "rgba(f38cec20)",
+      color = active_shadow_color,
+      color_inactive = inactive_shadow_color,
     },
     blur = {
       enabled = true,
